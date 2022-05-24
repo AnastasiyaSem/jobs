@@ -1,0 +1,65 @@
+/.idea/
+.env
+_auth.php
+
+.vscode/
+csv/
+test.php
+
+### UMATEX ###
+/
+/.htpasswd
+/.htaccess
+node_modules/
+/proto*/
+/test/
+/vendor/
+/video/
+/js/frame*.js
+/css/frame*.css
+robots.txt
+/csv/decors/
+upload/
+
+### Bitrix CMS ###
+/sitemap*.xml
+/bitrix/
+/bitrix.tar.gz
+/upload/
+/upload/tmp/
+/upload_old/
+/build/
+/media/
+.idea/
+### Multi Site ###
+/site_landing/bitrix
+/site_landing/css
+/site_landing/js
+/site_landing/include
+/site_landing/local
+/site_landing/media
+/site_landing/upload
+/site_landing/.htaccess
+/site_landing/.htpasswd
+### Multi Site 2 ###
+/site_frame/bitrix
+/site_frame/css
+/site_frame/js
+/site_frame/include
+/site_frame/local
+/site_frame/media
+/site_frame/upload
+/site_frame/.htaccess
+/site_frame/.htpasswd
+
+### Linux ###
+*~
+
+### MACOS ###
+.DS_Store
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
