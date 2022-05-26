@@ -3,7 +3,9 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("title", "Демонстрационная версия продукта «1С-Битрикс: Управление сайтом»");
 $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 $APPLICATION->SetTitle("Статьи");
-?><?$APPLICATION->IncludeComponent("bitrix:news.list", "template1", Array(
+?>
+
+<?$APPLICATION->IncludeComponent("bitrix:news.list", "template1", Array(
 	"ACTIVE_DATE_FORMAT" => "d.m.Y",	// Формат показа даты
 		"ADD_SECTIONS_CHAIN" => "Y",	// Включать раздел в цепочку навигации
 		"AJAX_MODE" => "N",	// Включить режим AJAX
@@ -63,4 +65,6 @@ $APPLICATION->SetTitle("Статьи");
 		"STRICT_SECTION_CHECK" => "N",	// Строгая проверка раздела для показа списка
 	),
 	false
-);?><br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?><br>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
