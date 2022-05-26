@@ -25,8 +25,8 @@ $this->setFrameMode(true);
         		<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"data-src="xxxHTMLLINKxxx0.39186223192351520.41491856731872767xxx"alt=""/>
         	</div>
         <div class="article-item__wrapper">
-            <div class="article-item__title"><?echo $arItem["NAME"]?></div>
-            <div class="article-item__content"><?echo $arItem["PREVIEW_TEXT"];?></div>
+            <div class="article-item__title"><?= $arItem["NAME"]?></div>
+            <div class="article-item__content"><?= $arItem["PREVIEW_TEXT"];?></div>
         </div>
     	</a>
     </div>
